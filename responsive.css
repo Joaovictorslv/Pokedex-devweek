@@ -1,0 +1,42 @@
+@media (max-width: 750px){
+ body{
+    background: hsla(176, 73%, 88%, 1) 50%;
+    font-size: 12px;
+ }
+ .pokedex{
+     flex-direction: column;
+     padding: 30px 0;
+ }
+ .card-pokemon{
+    max-width: 300px;
+ }
+ .card-pokemon .card-img{
+     width: 200px;
+     height: 200px;
+ }
+ .card-pokemon .card-info{
+     padding: 60px 30px 30px;
+     margin-top:-50px;
+     display: flex;
+     justify-content: space-between;
+ }
+ .card-pokemon .card-info h3{
+     font-size: 16px;
+ }
+ .team{
+     max-width: 300px;
+ }
+ .team ul{
+     display: flex;
+     gap:8px;
+     flex-wrap:wrap;
+     justify-content: space-between;
+ }
+
+ .team .pokemon{
+     width:140px;
+ }
+ .team .pokemon span{
+     padding-right: 10px;
+ }
+}

@@ -1,0 +1,136 @@
+.card-pokemon{
+    border-radius: 30px;
+    display: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.card-pokemon .card-top{
+    color:#FFFF;
+    padding:30px 40px 0;
+}
+
+.detalhes .name{
+    margin-bottom: 10px;
+}
+
+.card-top .tipagem{
+    font-size: 12px;
+    opacity: 0.8;
+    padding: 2px 10px;
+    border-radius: 10px;
+    box-shadow:  rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.card-top .detalhes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.detalhes .name{
+    margin-bottom: 15px;
+}
+
+.card-pokemon .card-img{
+    width: 290px;
+    height:280px;
+}
+
+.card-pokemon img{
+    max-width: 100%;
+}
+
+.card-pokemon .card-info{
+    background-color: rgba(255, 255, 255, 0.664);
+    display: flex;
+    justify-content: space-between;
+    padding:80px 30px 50px;
+    margin-top:-70px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.card-pokemon .card-info h3{
+    font-size: 20px;
+    margin-bottom:15px;
+    border-bottom: 1px solid #6b727a;
+}
+
+.card-pokemon .card-info .status, .card-pokemon .card-info .habilities {
+    padding:0px 10px;
+    width: 180px;
+}
+
+.card-pokemon .card-info .habilities ul li, .card-pokemon .card-info .status ul li{
+    border-bottom: 1px solid #c3c3c3;
+    padding: 0px 0px 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.card-pokemon.aberto{
+    display: block;
+}
+
+.type-eletrico{
+    background-color:rgb(236, 202, 48);
+}
+
+.type-fogo{
+    background-color:rgb(236, 139, 122);
+}
+
+.type-agua{
+    background-color:rgb(122, 185, 236);
+}
+
+.type-grama{
+    background-color:rgb(131, 236, 122);
+}
+
+.type-dragao{
+    background-color:rgb(124, 122, 236);
+}
+
+.type-fantasma{
+    background-color:rgb(94, 65, 141);
+}
+
+.type-voador{
+    background-color:rgb(170, 203, 245);
+}
+
+.type-normal{
+    background-color:rgb(148, 139, 127);
+}
+
+.type-fada{
+    background-color:rgb(243, 170, 245);
+}
+
+.type-gelo{
+    background-color:rgb(143, 193, 226);
+}
+
+.type-psiquico{
+    background-color:rgb(230, 110, 220);
+}
+
+.type-noturno{
+    background-color:rgb(29, 31, 34);
+}
+
+.type-inseto{
+    background-color:rgb(136, 180, 33);
+}
+
+.type-lutador{
+    background-color:rgb(155, 50, 50);
+}
+
+.type-metal{
+    background-color:rgb(148, 161, 179);
+}
+
+.type-venenoso{
+    background-color:rgb(120, 53, 146);
+}

@@ -1,0 +1,14 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    margin:0px;
+    padding:0px;
+}

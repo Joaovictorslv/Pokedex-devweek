@@ -1,0 +1,52 @@
+.team{
+    max-width: 200px;
+}
+
+.team .pokemon{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    background-color: rgba(94, 93, 93, 0.527);
+    color:#FFFF;
+    padding: 0 5px;
+    cursor: pointer;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius:30px;
+    border-top-right-radius: 30px;
+    min-height: 70px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 5px 10px -2px, rgba(0, 0, 0, 0.3) 0px 3px 6px -3px;
+    transition: 0.15 ease-in-out;
+}
+
+.team .pokemon:hover{
+    transform: scale(1.08);
+}
+
+.team .pokemon img{
+    width:25%;
+    border-radius: 50%;
+}
+
+.team .pokemon span{
+padding-right: 20px;
+}
+
+.team .pokemon.ativo{
+    background-color: rgba(202, 198, 198, 0.719);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
